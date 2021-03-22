@@ -22,5 +22,11 @@ namespace HangManGroupProject
         {
 
         }
+
+        private void buttonA_Click(object sender, EventArgs e)
+        {
+            buttonA.Enabled = false;// this grays out button
+            this.Controls.Add(buttonA);
+        }
     }
 }

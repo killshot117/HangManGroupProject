@@ -78,6 +78,7 @@ namespace HangManGroupProject
             this.buttonA.TabIndex = 1;
             this.buttonA.Text = "A";
             this.buttonA.UseVisualStyleBackColor = true;
+            this.buttonA.Click += new System.EventHandler(this.buttonA_Click);
             // 
             // buttonB
             // 
