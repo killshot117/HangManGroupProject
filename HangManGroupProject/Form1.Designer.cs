@@ -339,6 +339,7 @@ namespace HangManGroupProject
             this.label1.Size = new System.Drawing.Size(370, 54);
             this.label1.TabIndex = 27;
             this.label1.Text = "_ _ _ _ _ _ _ _ _";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
