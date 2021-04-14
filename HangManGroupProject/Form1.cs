@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//everything here is temp
+
 namespace HangManGroupProject
 {
     public partial class Form1 : Form
@@ -16,22 +18,22 @@ namespace HangManGroupProject
         string selectedword;
         int lives = 5;
         int length;
-        //example words. Words need to be read from a file.
-        string[] words = 
-        {
-            "Apple",
-            "Chair",
-            "Tree",
-            "School",
-        };
+        //reads from the text and shoves everything in the txt into an arrary
+        //words_alpha is the txt file with the words it is located in the main folder. same location as the program.cs file.
+        string[] lines = System.IO.File.ReadAllLines(@"C:\Users\trist\source\repos\HangManGroupProject\HangManGroupProject\words_alpha.txt");
+
+        
         public void selectWord()
         {
-            int min = 1;
-            int max = 4;
+            //random num gen
+            int min = 500;
+            int max = 90000;
             Random r = new Random();
             int randomNumber;
             randomNumber = r.Next(min, max);
-            length = selectedword.Length;
+
+            selectedword = lines[randomNumber];//uses the random number and picks a word.
+            length = selectedword.Length;//looks at the choesen word and figures out how long it is.
         }
         public Form1()
         {
