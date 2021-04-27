@@ -89,6 +89,7 @@ namespace HangManGroupProject
             this.buttonB.TabIndex = 2;
             this.buttonB.Text = "B";
             this.buttonB.UseVisualStyleBackColor = true;
+            this.buttonB.Click += new System.EventHandler(this.buttonB_Click);
             // 
             // buttonC
             // 
@@ -99,6 +100,7 @@ namespace HangManGroupProject
             this.buttonC.TabIndex = 3;
             this.buttonC.Text = "C";
             this.buttonC.UseVisualStyleBackColor = true;
+            this.buttonC.Click += new System.EventHandler(this.buttonC_Click);
             // 
             // buttonD
             // 
@@ -109,6 +111,7 @@ namespace HangManGroupProject
             this.buttonD.TabIndex = 4;
             this.buttonD.Text = "D";
             this.buttonD.UseVisualStyleBackColor = true;
+            this.buttonD.Click += new System.EventHandler(this.buttonD_Click);
             // 
             // buttonE
             // 
@@ -119,6 +122,7 @@ namespace HangManGroupProject
             this.buttonE.TabIndex = 5;
             this.buttonE.Text = "E";
             this.buttonE.UseVisualStyleBackColor = true;
+            this.buttonE.Click += new System.EventHandler(this.buttonE_Click);
             // 
             // buttonF
             // 
@@ -129,6 +133,7 @@ namespace HangManGroupProject
             this.buttonF.TabIndex = 6;
             this.buttonF.Text = "F\\";
             this.buttonF.UseVisualStyleBackColor = true;
+            this.buttonF.Click += new System.EventHandler(this.buttonF_Click);
             // 
             // buttonG
             // 
@@ -139,6 +144,7 @@ namespace HangManGroupProject
             this.buttonG.TabIndex = 7;
             this.buttonG.Text = "G";
             this.buttonG.UseVisualStyleBackColor = true;
+            this.buttonG.Click += new System.EventHandler(this.buttonG_Click);
             // 
             // buttonH
             // 
@@ -149,6 +155,7 @@ namespace HangManGroupProject
             this.buttonH.TabIndex = 8;
             this.buttonH.Text = "H";
             this.buttonH.UseVisualStyleBackColor = true;
+            this.buttonH.Click += new System.EventHandler(this.buttonH_Click);
             // 
             // buttonI
             // 
@@ -159,6 +166,7 @@ namespace HangManGroupProject
             this.buttonI.TabIndex = 9;
             this.buttonI.Text = "I";
             this.buttonI.UseVisualStyleBackColor = true;
+            this.buttonI.Click += new System.EventHandler(this.buttonI_Click);
             // 
             // buttonJ
             // 
@@ -169,6 +177,7 @@ namespace HangManGroupProject
             this.buttonJ.TabIndex = 10;
             this.buttonJ.Text = "J";
             this.buttonJ.UseVisualStyleBackColor = true;
+            this.buttonJ.Click += new System.EventHandler(this.buttonJ_Click);
             // 
             // buttonK
             // 
@@ -179,6 +188,7 @@ namespace HangManGroupProject
             this.buttonK.TabIndex = 11;
             this.buttonK.Text = "K";
             this.buttonK.UseVisualStyleBackColor = true;
+            this.buttonK.Click += new System.EventHandler(this.buttonK_Click);
             // 
             // buttonL
             // 
@@ -189,6 +199,7 @@ namespace HangManGroupProject
             this.buttonL.TabIndex = 12;
             this.buttonL.Text = "L";
             this.buttonL.UseVisualStyleBackColor = true;
+            this.buttonL.Click += new System.EventHandler(this.buttonL_Click);
             // 
             // buttonM
             // 
@@ -199,6 +210,7 @@ namespace HangManGroupProject
             this.buttonM.TabIndex = 13;
             this.buttonM.Text = "M";
             this.buttonM.UseVisualStyleBackColor = true;
+            this.buttonM.Click += new System.EventHandler(this.buttonM_Click);
             // 
             // buttonN
             // 
@@ -209,6 +221,7 @@ namespace HangManGroupProject
             this.buttonN.TabIndex = 14;
             this.buttonN.Text = "N";
             this.buttonN.UseVisualStyleBackColor = true;
+            this.buttonN.Click += new System.EventHandler(this.buttonN_Click);
             // 
             // buttonO
             // 
@@ -219,6 +232,7 @@ namespace HangManGroupProject
             this.buttonO.TabIndex = 15;
             this.buttonO.Text = "O";
             this.buttonO.UseVisualStyleBackColor = true;
+            this.buttonO.Click += new System.EventHandler(this.buttonO_Click);
             // 
             // buttonP
             // 
@@ -229,6 +243,7 @@ namespace HangManGroupProject
             this.buttonP.TabIndex = 16;
             this.buttonP.Text = "P";
             this.buttonP.UseVisualStyleBackColor = true;
+            this.buttonP.Click += new System.EventHandler(this.buttonP_Click);
             // 
             // buttonQ
             // 
@@ -239,6 +254,7 @@ namespace HangManGroupProject
             this.buttonQ.TabIndex = 17;
             this.buttonQ.Text = "Q";
             this.buttonQ.UseVisualStyleBackColor = true;
+            this.buttonQ.Click += new System.EventHandler(this.buttonQ_Click);
             // 
             // buttonR
             // 
@@ -249,6 +265,7 @@ namespace HangManGroupProject
             this.buttonR.TabIndex = 18;
             this.buttonR.Text = "R";
             this.buttonR.UseVisualStyleBackColor = true;
+            this.buttonR.Click += new System.EventHandler(this.buttonR_Click);
             // 
             // buttonS
             // 
@@ -259,6 +276,7 @@ namespace HangManGroupProject
             this.buttonS.TabIndex = 19;
             this.buttonS.Text = "S";
             this.buttonS.UseVisualStyleBackColor = true;
+            this.buttonS.Click += new System.EventHandler(this.buttonS_Click);
             // 
             // buttonT
             // 
@@ -269,6 +287,7 @@ namespace HangManGroupProject
             this.buttonT.TabIndex = 20;
             this.buttonT.Text = "T";
             this.buttonT.UseVisualStyleBackColor = true;
+            this.buttonT.Click += new System.EventHandler(this.buttonT_Click);
             // 
             // buttonU
             // 
@@ -279,6 +298,7 @@ namespace HangManGroupProject
             this.buttonU.TabIndex = 21;
             this.buttonU.Text = "U";
             this.buttonU.UseVisualStyleBackColor = true;
+            this.buttonU.Click += new System.EventHandler(this.buttonU_Click);
             // 
             // buttonV
             // 
@@ -289,6 +309,7 @@ namespace HangManGroupProject
             this.buttonV.TabIndex = 22;
             this.buttonV.Text = "V";
             this.buttonV.UseVisualStyleBackColor = true;
+            this.buttonV.Click += new System.EventHandler(this.buttonV_Click);
             // 
             // buttonW
             // 
@@ -299,6 +320,7 @@ namespace HangManGroupProject
             this.buttonW.TabIndex = 23;
             this.buttonW.Text = "W";
             this.buttonW.UseVisualStyleBackColor = true;
+            this.buttonW.Click += new System.EventHandler(this.buttonW_Click);
             // 
             // buttonX
             // 
@@ -309,6 +331,7 @@ namespace HangManGroupProject
             this.buttonX.TabIndex = 24;
             this.buttonX.Text = "X";
             this.buttonX.UseVisualStyleBackColor = true;
+            this.buttonX.Click += new System.EventHandler(this.buttonX_Click);
             // 
             // buttonY
             // 
@@ -319,6 +342,7 @@ namespace HangManGroupProject
             this.buttonY.TabIndex = 25;
             this.buttonY.Text = "Y";
             this.buttonY.UseVisualStyleBackColor = true;
+            this.buttonY.Click += new System.EventHandler(this.buttonY_Click);
             // 
             // buttonZ
             // 
@@ -329,6 +353,7 @@ namespace HangManGroupProject
             this.buttonZ.TabIndex = 26;
             this.buttonZ.Text = "Z";
             this.buttonZ.UseVisualStyleBackColor = true;
+            this.buttonZ.Click += new System.EventHandler(this.buttonZ_Click);
             // 
             // label1
             // 
@@ -336,9 +361,8 @@ namespace HangManGroupProject
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 340);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(370, 54);
+            this.label1.Size = new System.Drawing.Size(0, 54);
             this.label1.TabIndex = 27;
-            this.label1.Text = "_ _ _ _ _ _ _ _ _";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
@@ -376,6 +400,7 @@ namespace HangManGroupProject
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Hangman";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
