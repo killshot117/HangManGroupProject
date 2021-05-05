@@ -79,5 +79,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Hangman0.bmp" />
+    <Content Include="Images\Hangman1.bmp" />
+    <Content Include="Images\Hangman2.bmp" />
+    <Content Include="Images\Hangman3.bmp" />
+    <Content Include="Images\Hangman4.bmp" />
+    <Content Include="Images\Hangman5.bmp" />
+    <Content Include="Images\Hangman6.bmp" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
