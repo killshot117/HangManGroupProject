@@ -30,7 +30,33 @@ namespace HangManGroupProject
         //words_alpha is the txt file with the words it is located in the main folder. same location as the program.cs file.
         string[] lines = System.IO.File.ReadAllLines(@"C:\Users\trist\source\repos\HangManGroupProject\HangManGroupProject\words_alpha.txt");
 
-        
+        public void IncrementHangman()
+        {
+            usedLIVES++;
+            switch(usedLIVES)
+            {
+                case 1:
+                    pictureBox1.Image = Image.FromFile("Images/Hangman1.bmp");
+                    break;
+                case 2:
+                    pictureBox1.Image = Image.FromFile("Images/Hangman2.bmp");
+                    break;
+                case 3:
+                    pictureBox1.Image = Image.FromFile("Images/Hangman3.bmp");
+                    break;
+                case 4:
+                    pictureBox1.Image = Image.FromFile("Images/Hangman4.bmp");
+                    break;
+                case 5:
+                    pictureBox1.Image = Image.FromFile("Images/Hangman5.bmp");
+                    break;
+                case 6:
+                    pictureBox1.Image = Image.FromFile("Images/Hangman6.bmp");
+                    break;
+                
+            }
+
+        }
         public void selectWord()
         {
             //random num gen
@@ -39,7 +65,7 @@ namespace HangManGroupProject
             Random r = new Random();
             int randomNumber;
             randomNumber = r.Next(min, max);
-            int Len = 0;
+            
             
             
             selectedword = lines[randomNumber];//uses the random number and picks a word.
@@ -65,6 +91,7 @@ namespace HangManGroupProject
                 else
                 {
                     tempword += label1.Text.Substring(i, 1);
+                    IncrementHangman();
                 }
             }
             label1.Text = tempword;
